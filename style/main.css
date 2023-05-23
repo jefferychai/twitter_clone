@@ -1,0 +1,244 @@
+main {
+  flex: 3 0 45%;
+}
+
+.tweetbox-header {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 12px;
+}
+
+.tweet-type {
+  display: flex;
+  flex-direction: row;
+}
+
+.recommended-tweet,
+.following-tweet {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--word-grey);
+  border-bottom: 4px solid var(--twitter-blue);
+  padding: 15px 0;
+}
+
+.recommended-tweet-container,
+.following-tweet-container {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid var(--border-line);
+  flex: 1;
+}
+
+.recommended-tweet-container:hover,
+.following-tweet-container:hover {
+  background-color: var(--hovering-grey);
+  transition: background-color 0.3s;
+} 
+
+.new-tweet {
+  display: flex;
+  border-bottom: 1px solid var(--border-line);
+  padding-bottom: 15px;
+}
+
+.new-tweet-profile-column {
+  padding: 10px 15px;
+}
+
+.user-profile-picture {
+  height: 48px;
+  width: 48px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.new-tweet-content-column {
+  flex: 1;
+}
+
+.new-tweet input {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  width: auto;
+  flex: 1;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+
+.new-tweet input::placeholder {
+  color: var(--word-grey);
+  font-size: 20px;
+}
+
+.new-tweet-function {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.new-tweet-function img {
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+  padding: 5px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.new-tweet-function img:hover {
+  background-color: var(--hovering-blue);
+  transition: background-color 0.3s;
+}
+
+.new-tweet-function button {
+  background-color: var(--twitter-blue);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600; 
+  margin-right: 18px;
+}
+
+.new-tweet-function button:hover {
+  background-color: rgb(27, 140, 215);
+  cursor: pointer;
+}
+
+/* Tweet Content */
+.tweet-content {
+  display: flex;
+  padding: 5px;
+  border-bottom: 1px solid var(--border-line);
+}
+
+.tweet-content-profile {
+  padding: 10px 15px;
+}
+
+.tweet-content-profile-picture {
+  height: 48px;
+  border-radius: 5px;
+}
+
+.tweet-content-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.tweet-content-column-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.tweet-content-column-header div {
+  display: flex;
+  align-items: center;
+}
+
+.tweet-content-author {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.tweet-content-column-header img {
+  height: 16px;
+  width: 16px;
+  padding: 0px 5px;
+}
+
+.tweet-content-author-handle {
+  font-size: 15px;
+  color: var(--word-grey);
+}
+
+.thumbnail {
+  height: 280px;
+  width: 504px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin: 15px 0px 5px 0px;
+}
+
+.tweet-content-sentence {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.tweet-content-footer {
+  display: flex;
+  align-items: center;
+}
+
+.view-stat-column,
+.comment-stat-column,
+.retweet-stat-column,
+.like-stat-column,
+.upload-column {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+  cursor: pointer;
+}
+
+.tweet-content-footer i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 3px;
+}
+
+.tweet-content-footer div {
+  font-size: 13px;
+  color: var(--word-grey);
+}
+
+.view-stat-column:hover i,
+.comment-stat-column:hover i,
+.upload-column:hover i {
+  background-color: var(--hovering-blue);
+  color: var(--twitter-blue);
+  transition: background-color 0.3s,
+  color 0.3s;
+}
+
+.view-stat-column:hover .view-stat,
+.comment-stat-column:hover .comment-stat {
+  color: var(--twitter-blue);
+  transition: color 0.3s;
+}
+
+.retweet-stat-column:hover i {
+  background-color: rgb(237, 255, 237);
+  color: rgb(0, 180, 120);
+  transition: background-color 0.3s,
+  color 0.3s; 
+}
+
+.retweet-stat-column:hover .retweet-stat {
+  color: rgb(0, 180, 120);
+  transition: color 0.3s;
+}
+
+.like-stat-column:hover i {
+  background-color: rgb(255, 234, 238);
+  color: rgb(252, 55, 88);
+  transition: background-color 0.3s,
+  color 0.3s; 
+}
+
+.like-stat-column:hover .like-stat {
+  color: rgb(252, 55, 88);
+  transition: color 0.3s;
+}
+
+

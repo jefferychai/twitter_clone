@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.overall-flex-container {
+  max-width: 1350px;
+  margin: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+/* Standard Color */
+:root {
+  --border-line: rgb(235, 235, 235);
+  --hovering-grey: rgb(231, 231, 231);
+  --hovering-blue: rgb(224, 244, 250);
+  --hovering-new-tweet: rgb(27, 140, 215);
+  --twitter-blue: rgb(29, 155, 240);
+  --word-grey: rgb(83, 100, 113);
+}  
+

@@ -1,0 +1,228 @@
+.right-sidebar {
+  flex: 2 0 31%;
+  width: 100%;
+  height: 100%;
+  position: sticky;
+  top: 0;
+  border-left: 1px solid var(--border-line);
+  overflow-y: auto;
+  background-color: white;
+}
+
+/* search-bar */
+.search-box {
+  position: fixed;
+  background-color: white;
+}
+
+.search-box i {
+  position: absolute;
+  left: 48px;
+  top: 20px;
+  color: rgb(83,100,113);
+}
+
+.search-box input {
+  height: 42px;
+  flex: 1;
+  background-color: rgb(239,243,244);
+  border: 1px solid transparent;
+  border-radius: 50px;
+  outline: none;
+  padding-left: 55px;
+  padding-right: 100px;
+  font-size: 15px;
+  margin: 5px 90px 5px 30px;
+}
+
+.search-bar::placeholder {
+  font-size: 15px;
+}
+
+input:focus {
+  border: 1px solid var(--twitter-blue);
+  background-color: white;
+}
+
+.search-box input:focus ~ i {
+  color: var(--twitter-blue);
+}
+
+.search-box .tooltip {
+  position: absolute;
+  top: 53px;
+  left: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  color: var(--word-grey);
+  background-color: white;
+  box-shadow: 0px 0px 8px rgba(109, 119, 134, 0.3);
+  border-radius: 10px;
+  height: 80px;
+  width: 375px;
+  padding-top: 20px;
+  z-index: 100;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.search-box input:focus ~ .tooltip {
+  opacity: 1;
+}
+
+/* trending section */
+.trend-container {
+  background-color: rgb(247,249,249);
+  margin: 0px 75px 10px 30px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-top: 65px;
+}
+
+.trend-header {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 15px;
+}
+
+.trend-row {
+  padding: 10px 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.trend-row:hover {
+  background-color: var(--hovering-grey);
+  transition: background-color 0.3s;
+}
+
+.trend-type{
+  color: var(--word-grey);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.trend-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 5px 0px;
+}
+
+.trend-stats {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--word-grey);
+}
+
+.trend-container i {
+  height: 15px;
+  padding: 8px;
+  border-radius: 50px;
+}
+
+.trend-show-more,
+.author-show-more {
+  color: var(--twitter-blue);
+  font-size: 15px;
+  padding: 5px 0px;
+}
+
+.trend-container i:hover {
+  background-color: var(--hovering-blue);
+  color: var(--twitter-blue);
+  transition: background-color 0.3s;
+}
+
+/* Suggested Author */
+.suggested-author-container {
+  background-color: rgb(247,249,249);
+  margin: 0px 75px 10px 30px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.suggested-author-header {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 15px;
+}
+
+.author-row {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.author-row:hover {
+  background-color: var(--hovering-grey);
+  transition: background-color 0.3s;
+}
+
+.author-picture {
+  height: 48px;
+  width: 48px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.author-picture:hover {
+  filter: grayscale(60%);
+  transition: filter 0.3s;
+}
+
+.author-info {
+  width: 200px;
+}
+
+.author-name {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.author-name:hover {
+  text-decoration: underline;
+}
+
+.author-handle {
+  font-size: 15px;
+  color: var(--word-grey);
+}
+
+.follow-button {
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* footer */
+.footer-link {
+  padding: 10px 15px;
+}
+
+.footer-link div {
+  font-size: 13px;
+  color: var(--word-grey);
+  margin: 0px 0px 5px 30px;
+}
+
+.footer-link a {
+  padding-right: 5px;
+  text-decoration: none;
+  color: var(--word-grey);
+}
+
+.footer-link a:hover {
+  text-decoration: underline;
+}
+
+.footer-link i {
+  font-size: 10px;
+}

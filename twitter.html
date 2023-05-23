@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/left-sidebar.css">
+    <link rel="stylesheet" href="style/right-sidebar.css">
+    <link rel="stylesheet" href="style/main.css">
+    <script src="https://kit.fontawesome.com/75cd44734a.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="overall-flex-container">
+      <nav>
+        <div class="left-sidebar">
+          <div class="twitter-home-container">
+            <img class="twitter-home" src="icons/twitter.png">
+          </div>
+          <div class="navigation-link-container">
+            <div class="navigation-link">
+              <img src="icons/home.png">
+              <span>Home</span>
+            </div>
+  
+            <div class="navigation-link">
+              <img src="icons/explore.png">
+              <span>Explore</span>
+            </div>
+  
+            <div class="navigation-link">
+              <img src="icons/notifications.png">
+              <span>Notifications</span>
+            </div>
+  
+            <div class="navigation-link">
+              <img src="icons/messages.png">
+              <span>Messages</span>
+            </div>
+  
+            <div class="navigation-link">
+              <img src="icons/bookmarks.png">
+              <span>Bookmarks</span>
+            </div>
+  
+            <div class="navigation-link">
+              <img src="icons/lists.png">
+              <span>Lists</span>
+            </div>
+  
+            <div class="navigation-link">
+              <img src="icons/profile.png">
+              <span>Profile</span>
+            </div>
+  
+            <div class="navigation-link">
+              <img src="icons/view-more.png">
+              <span>More</span>
+            </div>
+          </div>
+  
+          <div class="tweet-button-container">
+            <button class="tweet-button">Tweet</button>
+            <img class="mini-tweet-button" src="icons/icons-feather.png">
+          </div>
+  
+          <div class="profile-container">
+            <div class="profile">
+              <img class="profile-picture" src="profile-pictures/my-profile.jpeg">
+              <div class="profile-content">
+                <div class="profile-content-left-section">
+                  <div class="profile-name">C.J CHAI</div>
+                  <div class="profile-handle">@JING_CJ97</div>
+                </div>
+                <div class="profile-content-right-section">
+                  <img class="profile-more" src="icons/more_horiz.svg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <section class="tweetbox-container">
+          <div class="tweetbox-header">Home</div>
+          
+          <div class="tweet-type">
+            <div class="recommended-tweet-container">
+              <div class="recommended-tweet">For you</div>
+            </div>
+            <div class="following-tweet-container">
+              <div class="following-tweet">Following</div>
+            </div>
+          </div>
+  
+          <div class="new-tweet">
+            <div class="new-tweet-profile-column">
+              <img class="user-profile-picture" src="profile-pictures/my-profile.jpeg">
+            </div>
+            <div class="new-tweet-content-column">
+              <input type="text" placeholder="What's happening?">
+              <div class="new-tweet-function">
+                <div>
+                  <img src="icons/picture.png">
+                  <img src="icons/gif.png">
+                  <img src="icons/poll.png">
+                  <img src="icons/emoji.png">
+                  <img src="icons/schedule.png">
+                  <img src="icons/location.png">
+                </div>
+                <button>Tweet</button>
+              </div>
+            </div>
+          </div>
+  
+          <div class="tweet-content">
+            <div class="tweet-content-profile">
+              <img class="tweet-content-profile-picture" src="profile-pictures/profile-1.jpg">
+            </div>
+            
+            <div class="tweet-content-column">
+              <div class="tweet-content-column-header">
+                <div>
+                  <p class="tweet-content-author">Forbes</p>
+                  <img src="icons/yellow tick.svg">
+                  <p class="tweet-content-author-handle">@Forbes &#183; 23h</p>
+                </div>
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+              <div class="tweet-content-sentence">An 8-Car Pileup Started By A Tesla In Autopilot Opens Up Many Complex Issues</div>
+              <img class="thumbnail" src="thumbnails/thumbnail-1.jfif">
+              <div class="tweet-content-footer">
+                <div class="view-stat-column">
+                  <i class="fa-sharp fa-solid fa-chart-simple"></i>
+                  <div class="view-stat">234.8K</div>
+                </div>
+                
+                <div class="comment-stat-column">
+                  <i class="fa-regular fa-comment"></i>
+                  <div class="comment-stat">67</div>
+                </div>
+  
+                <div class="retweet-stat-column">
+                  <i class="fa-solid fa-retweet"></i>
+                  <div class="retweet-stat">88</div>
+                </div>
+                
+                <div class="like-stat-column">
+                  <i class="fa-regular fa-heart"></i>
+                  <div class="like-stat">299</div>
+                </div>
+  
+                <div class="upload-column">
+                  <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="tweet-content">
+            <div class="tweet-content-profile">
+              <img class="tweet-content-profile-picture" src="profile-pictures/profile-2.jpg">
+            </div>
+            
+            <div class="tweet-content-column">
+              <div class="tweet-content-column-header">
+                <div>
+                  <p class="tweet-content-author">Eva Fox</p>
+                  <img src="icons/yellow tick.svg">
+                  <p class="tweet-content-author-handle">@EvaFoxU &#183; 23h</p>
+                </div>
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+              <div class="tweet-content-sentence">Tesla is close to reaching a preliminary deal to build a factory in Indonesia. The manufacturer and the government of the country have long been on friendly terms and have met several times for discussions</div>
+              <img class="thumbnail" src="thumbnails/thumbnail-2.jfif">
+              <div class="tweet-content-footer">
+                <div class="view-stat-column">
+                  <i class="fa-sharp fa-solid fa-chart-simple"></i>
+                  <div class="view-stat">2.8M</div>
+                </div>
+                
+                <div class="comment-stat-column">
+                  <i class="fa-regular fa-comment"></i>
+                  <div class="comment-stat">315</div>
+                </div>
+  
+                <div class="retweet-stat-column">
+                  <i class="fa-solid fa-retweet"></i>
+                  <div class="retweet-stat">456</div>
+                </div>
+                
+                <div class="like-stat-column">
+                  <i class="fa-regular fa-heart"></i>
+                  <div class="like-stat">4,991</div>
+                </div>
+  
+                <div class="upload-column">
+                  <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="tweet-content">
+            <div class="tweet-content-profile">
+              <img class="tweet-content-profile-picture" src="profile-pictures/profile-3.jpg">
+            </div>
+            
+            <div class="tweet-content-column">
+              <div class="tweet-content-column-header">
+                <div>
+                  <p class="tweet-content-author">malaysiakini.com</p>
+                  <img src="icons/yellow tick.svg">
+                  <p class="tweet-content-author-handle">@malaysiakini &#183; 10h</p>
+                </div>
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+              <div class="tweet-content-sentence">Najib was like Hang Tuah, only missed after he was gone: Puteri Umno chief</div>
+              <img class="thumbnail" src="thumbnails/thumbnail-3.jfif">
+              <div class="tweet-content-footer">
+                <div class="view-stat-column">
+                  <i class="fa-sharp fa-solid fa-chart-simple"></i>
+                  <div class="view-stat">33.3K</div>
+                </div>
+                
+                <div class="comment-stat-column">
+                  <i class="fa-regular fa-comment"></i>
+                  <div class="comment-stat">90</div>
+                </div>
+  
+                <div class="retweet-stat-column">
+                  <i class="fa-solid fa-retweet"></i>
+                  <div class="retweet-stat">61</div>
+                </div>
+                
+                <div class="like-stat-column">
+                  <i class="fa-regular fa-heart"></i>
+                  <div class="like-stat">42</div>
+                </div>
+  
+                <div class="upload-column">
+                  <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>      
+
+      <nav>
+        <div class="right-sidebar">
+          <div class="search-box">
+            <!--Code will be readed from top to bottom. If icon placed before searchbar, ".search-box input:focus ~ i" won't work!-->
+            <input type="text" placeholder="Search Twitter">
+            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+            <div class="tooltip">Try searching for people, topics, or keywords.</div>
+          </div>
+          
+          <div class="trend-container">
+            <div class="trend-header">Trends for you</div>
+            <div class="trend-row">
+              <div class="trend-info">
+                <div class="trend-type">Trending</div>
+                <div class="trend-title">The Bible</div>
+                <div class="trend-stats">47.2K Tweets</div>
+              </div>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+  
+            <div class="trend-row">
+              <div class="trend-info">
+                <div class="trend-type">Trending in Malaysia</div>
+                <div class="trend-title">Congrats Thailand</div>
+                <div class="trend-stats">43.1K Tweets</div>
+              </div>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+  
+            <div class="trend-row">
+              <div class="trend-info">
+                <div class="trend-type">Entertainment &#183; Trending</div>
+                <div class="trend-title">Kate McKinnon</div>
+                <div class="trend-stats">63.1K Tweets</div>
+              </div>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+  
+            <div class="trend-row">
+              <div class="trend-info">
+                <div class="trend-type">Trending</div>
+                <div class="trend-title">Who the F</div>
+                <div class="trend-stats">9,065 Tweets</div>
+              </div>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+  
+            <div class="trend-row">
+              <div class="trend-info">
+                <div class="trend-type">Trending</div>
+                <div class="trend-title">Give Ukraine</div>
+                <div class="trend-stats">7,170 Tweets</div>
+              </div>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+  
+            <div class="trend-row">
+              <div class="trend-info">
+                <div class="trend-type">Trending in Malaysia</div>
+                <div class="trend-title">Seoul</div>
+                <div class="trend-stats">52.9K Tweets</div>
+              </div>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+  
+            <div class="trend-row">
+              <div class="trend-info">
+                <div class="trend-type">Politics &#183; Trending</div>
+                <div class="trend-title">Taliban</div>
+                <div class="trend-stats">47.2K Tweets</div>
+              </div>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+  
+            <div class="trend-row">
+              <div class="trend-info">
+                <div class="trend-type">Technology &#183; Trending</div>
+                <div class="trend-title">#TikTok</div>
+                <div class="trend-stats">120K Tweets</div>
+              </div>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+  
+            <div class="trend-row">
+              <div class="trend-info">
+                <div class="trend-type">Trending</div>
+                <div class="trend-title">Shooting</div>
+                <div class="trend-stats">93.5K Tweets</div>
+              </div>
+              <i class="fa-solid fa-ellipsis"></i>            
+            </div>
+  
+            <div class="trend-row">
+              <div class="trend-info">
+                <div class="trend-type">Trending in Malaysia</div>
+                <div class="trend-title">Suzy</div>
+                <div class="trend-stats">18.7K Tweets</div>
+              </div>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+  
+            <div class="trend-row">
+              <div class="trend-show-more">Show more</div>
+            </div>
+          </div>
+          
+          <div class="suggested-author-container">
+            <div class="suggested-author-header">Who to follow</div>
+            <div class="author-row">
+              <img class="author-picture" src="profile-pictures/author-1.jpg">
+              <div class="author-info">
+                <div class="author-name">BFM News</div>
+                <div class="author-handle">@NewsBFM</div>
+              </div>
+              <button class="follow-button">Follow</button>
+            </div>
+  
+            <div class="author-row">
+              <img class="author-picture" src="profile-pictures/author-2.jpg">
+              <div class="author-info">
+                <div class="author-name">Sundar Pichai</div>
+                <div class="author-handle">@sundarpichai</div>
+              </div>
+              <button class="follow-button">Follow</button>
+            </div>
+  
+            <div class="author-row">
+              <img class="author-picture" src="profile-pictures/author-3.jpg">
+              <div class="author-info">
+                <div class="author-name">Western Digital</div>
+                <div class="author-handle">@westerndigital</div>
+              </div>
+              <button class="follow-button">Follow</button>
+            </div>
+  
+            <div class="author-row">
+              <div class="author-show-more">Show more</div>
+            </div>
+          </div>
+          
+          <div class="footer-link">
+            <div>
+              <a href="https://twitter.com/en/tos" target="_blank">Terms of Service</a>
+              <a href="https://twitter.com/en/privacy" target="_blank">Privacy Policy</a>
+              <a href="https://help.twitter.com/en/rules-and-policies/twitter-cookies" target="_blank">Cookie Policy</a>
+            </div>
+            <div>
+              <a href="https://help.twitter.com/en/resources/accessibility" target="_blank">Accessibility</a>
+              <a href="https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo" target="_blank">Ads info</a>
+              <a>More <i class="fa-solid fa-ellipsis"></i></a>   
+            </div>
+            <div>@ 2023 Twitter, Inc.</div>
+          </div>
+        </div>
+      </nav>
+  
+    </div>
+  </body>
+</html>
